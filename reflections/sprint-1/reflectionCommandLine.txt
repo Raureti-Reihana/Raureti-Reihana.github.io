@@ -1,0 +1,26 @@
+**How would you describe the command line in plain English in a couple of sentences? Can you think of an analogy for it?**
+
+- To my knowledge the command line is another way to interact with your PC without using the convetional system of the PC.  
+- coming in the backdoor, you still have access to everything in the house as you would if you were to come through the front door   
+but you have come in another way.  
+  
+  
+**Did you stick to the timebox guidelines? If not, what change would you make next time?**  
+  
+-no, i may have taken a little extra time to wrap my head around things, i wouldn't change anything yet as i am still fresh to everything and     
+i'm still learning how to use timebox guidelines properly.  
+  
+**Name five commands you used and what they do.**  
+  
+ls = lists all files and directories in the current directiory   
+ls -al = this command also lists all files and directories in the current directory but also gives extra information for those items  
+i.e. write and read permissions, file size, last date modefied and more that i am yet to learn.  
+pwd = shows your current directory location  
+cd = change directory  
+rm = remove a file  
+rm -rf = remove a directory  
+mkdir = creates a new directory  
+touch = creates a new file  
+  
+**Did you learn anything unexpected?**  
+no  
