@@ -1,6 +1,7 @@
 What is my site's primary purpose?  
    
-The purpose of My blog site is to tell people about myself and alow my self to apply the skills that i'm learnig by building the website. 
+The purpose of My blog site is to tell people about myself and alow my self to apply the skills that i'm
+ learnig by building the website. 
   
 Who is my audience? (is it kids, adults, academics)?  
   
@@ -10,7 +11,14 @@ How will I build my site to support their user experience?
     
 I will use clear and easy to read headings and content so the user can easily understand what i am trying to get across.    
   
-Wireframe - can I draw my site layout on paper? Draw it!
-What will my site layout look like on a mobile phone? On a tablet? On a desktop?
-What other directories do I need (e.g. images)? Where do I put that directory?
+Wireframe - can I draw my site layout on paper? Draw it!  
+
+What will my site layout look like on a mobile phone? On a tablet? On a desktop?  
+  
+fingers crossed it will be responsive and simple.    
+
+What other directories do I need (e.g. images)? Where do I put that directory?  
+  
+I will put     
+
 Do I also want the style to be applied to all of my blog entries?
