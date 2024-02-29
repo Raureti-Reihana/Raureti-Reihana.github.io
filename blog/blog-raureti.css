@@ -1,0 +1,80 @@
+.main-heading {
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 4vw;
+  color: #000000;
+  margin: 0;
+}
+
+.red-name {
+  color: rgb(180, 8, 8);
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 1;
+}
+
+.raureti-pic1 {
+  border-radius: 200px;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+
+.container-1 {
+  position: relative;
+  overflow: auto;
+  opacity: 0.65;
+  background-image: url('//wsl.localhost/Ubuntu/home/raureti/devacademy/Dev_Academy_Repos/Raureti-Reihana.github.io/blog-images/porirua-harbour.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: auto;
+  margin: 0;
+  height: 100vh;
+}
+
+.whakatauki {
+  height: auto;
+  font-size: 50px;
+  font-family: 'Poppins';
+  text-align: left;
+  vertical-align: text-top;
+  margin: 1%;
+  mix-blend-mode: overlay;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.link-to {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 0px;
+}
+
+.button {
+  flex: 1 0 280px;
+  background-color: gray;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 30px;
+  padding: 5rem;
+  margin: 20px;
+  border-radius: 10px;
+  opacity: 60%;
+  overflow: auto;
+}
+
+ul {
+  text-align: left;
+  
+}
