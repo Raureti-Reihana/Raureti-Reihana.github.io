@@ -30,7 +30,7 @@
 .container-1 {
   overflow: auto;
   opacity: 0.65;
-  background-image: url<"/https://github.com/Raureti-Reihana/Raureti-Reihana.github.io/blob/main/blog-images/porirua-harbour.jpg">;
+  background-image: url("/https://github.com/Raureti-Reihana/Raureti-Reihana.github.io/blob/main/blog-images/porirua-harbour.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
