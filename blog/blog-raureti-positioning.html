@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Raureti's Blog</title>
+    <title>Raureti's Blog - postioning</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -24,14 +24,45 @@
       </p>
       <div class="link-to">
         <div class="button link1">
-          Absolute
+          <strong> Absolute </strong><br><br>
+          Means the element's postion is relative to the nearest parent element<br>
+          <img class="absolute" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\css-absolute-positioning.png">
         </div>
         <div class="button link2">
-          Relative
+          <strong> Relative </strong><br><br>
+          Means the elements position is relative to its original position<br>
+          <img class="relative" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\css-relative-positioning.png">
         </div>
         <div class="button link3"> 
-          Fixed
+          <strong> Fixed </strong><br><br>
+          Means the element's position is relative to the entire web browser and the element is taken out of normal flow<br>
+          <img class="fixed" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\css-fixed-positioning.png">
         </div>
+      </div>
+      <div class="position-example">
+        <h3 class="h3"> Static </h3>
+        <p class="explanation">Static is the position default. Here is an example of 4 div boxes inside each other with its corresponding css</p>
+        <div class="position-img1">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-example-html-default.png">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-example-css-default.png">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-example-default.png">
+        </div>
+        <p class="explanation"> These images show our boxes before having any postion properties added to them</p>
+        <h3 class="h3"> Absolute </h3>
+        <p class="explanation">Now, lets set our position for 'box 4' to 'absolute' </p>
+        <div class="position-img1">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-absolute-css.png">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-absolute-no-parent.png">
+        </div>
+        <p class="explanation"> Notice after we set our position: absolute; and top and left properties, our 'box 4' 
+          has now shifted its position relative to the top left part of the webpage. <br> This is because we have 
+          no position set to any of our other boxes. let's try setting position: absolute; to our 'box 3'
+        </p>
+        <div class="position-img1">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-absolute-box3-css.png">
+          <img class="img1" src="\\wsl.localhost\Ubuntu\home\raureti\devacademy\Dev_Academy_Repos\Raureti-Reihana.github.io\blog-images\position-absolute-box3-box4.png">
+        </div>
+        <p class="explanation">See now that we have set our position: absolute; to our 'box 3', our 'box 4' now has an eligble parent to relate its position to</p>
       </div>
     </div>
   </body>

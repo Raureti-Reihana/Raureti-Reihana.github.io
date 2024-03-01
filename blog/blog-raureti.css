@@ -28,7 +28,6 @@
 }
 
 .container-1 {
-  position: relative;
   overflow: auto;
   opacity: 0.65;
   background-image: url('//wsl.localhost/Ubuntu/home/raureti/devacademy/Dev_Academy_Repos/Raureti-Reihana.github.io/blog-images/porirua-harbour.jpg');
@@ -83,4 +82,31 @@ img {
 
 ul {
   text-align: left;
+}
+
+.position-example {
+  background-color: rgb(128, 128, 128, 0.6);
+  width: 100%;
+}
+
+.h3 {
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
+.position-img1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.explanation {
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
+.img1 {
+  margin: 20px;
 }
