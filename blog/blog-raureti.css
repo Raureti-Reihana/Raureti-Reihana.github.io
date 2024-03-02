@@ -1,7 +1,7 @@
 .main-heading {
   text-align: left;
   font-family: 'Poppins';
-  font-size: 4vw;
+  font-size: 40px;
   color: #000000;
   margin: 0;
 }
@@ -25,6 +25,12 @@
   width: 100px;
   height: 100px;
   padding: 30px;
+}
+
+.home {
+  font-family: 'Poppins';
+  font-size: 20px;
+  text-align: right;
 }
 
 .container-1 {
