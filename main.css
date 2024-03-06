@@ -1,0 +1,120 @@
+.main-heading {
+  text-align: left;
+  font-family: 'Poppins';
+  font-size: 40px;
+  color: #000000;
+  margin: 0;
+}
+
+.red-name {
+  color: rgb(180, 8, 8);
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.raureti-pic1 {
+  border-radius: 200px;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+
+.home {
+  font-family: 'Poppins';
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: right;
+  
+}
+
+.container-1 {
+  overflow: auto;
+  opacity: 0.65;
+  background-image: url("/blog-images/porirua-harbour.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: auto;
+  margin: 0;
+  height: 100vh;
+}
+
+.whakatauki {
+  height: auto;
+  font-size: 50px;
+  font-family: 'Poppins';
+  text-align: left;
+  vertical-align: text-top;
+  margin: 1%;
+  mix-blend-mode: overlay;
+}
+
+.postioning {
+  color:#000000;
+  font-family: 'Poppins';
+  font-size: 60px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.link-to {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 0px;
+  
+}
+
+.button {
+  flex: 1 1 280px;
+  background-color: rgb(128, 128, 128, 0.6);
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 30px;
+  padding: 2rem;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  
+}
+
+ul {
+  text-align: left;
+}
+
+.position-example {
+  background-color: rgb(128, 128, 128, 0.6);
+  width: 100%;
+}
+
+h3 {
+  font-family: 'Poppins';
+  font-size: 40px;
+}
+
+.position-img1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.explanation {
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
+.img1 {
+  margin: 20px;
+}

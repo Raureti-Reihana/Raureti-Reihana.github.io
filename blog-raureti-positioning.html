@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raureti's Blog - postioning</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="blog-raureti.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img
+        class="raureti-pic1"
+        src="/blog-images/raureti-pic1.jpg">
+      <h1 class="main-heading"><span class="red-name">Raureti's</span> Blog </h1><a class="home" href="/blog/blog-raureti.html">Home</a>
+    </div>
+    <div class="container-1">
+      <p class="postioning">
+        <strong> What are the differences between relative, absolute, and fixed positioning? </strong>
+      </p>
+      <div class="link-to">
+        <div class="button link1">
+          <strong> Absolute </strong><br><br>
+          Means the element's postion is relative to the nearest parent element<br>
+          <img class="absolute" src="\blog-images\css-absolute-positioning.png">
+        </div>
+        <div class="button link2">
+          <strong> Relative </strong><br><br>
+          Means the elements position is relative to its original position<br>
+          <img class="relative" src="\blog-images\css-relative-positioning.png">
+        </div>
+        <div class="button link3"> 
+          <strong> Fixed </strong><br><br>
+          Means the element's position is relative to the entire web browser and the element is taken out of normal flow<br>
+          <img class="fixed" src="\blog-images\css-fixed-positioning.png">
+        </div>
+      </div>
+      <div class="position-example">
+        <h3 class="h3"> Static </h3>
+        <p class="explanation">Static is the position default. Here is an example of 4 div boxes inside each other with its corresponding css</p>
+        <div class="position-img1">
+          <img class="img1" src="\blog-images\position-example-html-default.png">
+          <img class="img1" src="\blog-images\position-example-css-default.png">
+          <img class="img1" src="\blog-images\position-example-default.png">
+        </div>
+        <p class="explanation"> These images show our boxes before having any postion properties added to them</p>
+        <h3 class="h3"> Absolute </h3>
+        <p class="explanation">Now, lets set our position for 'box 4' to 'absolute' </p>
+        <div class="position-img1">
+          <img class="img1" src="\blog-images\position-absolute-css.png">
+          <img class="img1" src="\blog-images\position-absolute-no-parent.png">
+        </div>
+        <p class="explanation"> Notice after we set our position: absolute; and top and left properties, our 'box 4' 
+          has now shifted its position relative to the top left part of the webpage. <br> This is because we have 
+          no position set to any of our other boxes. let's try setting position: absolute; to our 'box 3'
+        </p>
+        <div class="position-img1">
+          <img class="img1" src="\blog-images\position-absolute-box3-css.png">
+          <img class="img1" src="\blog-images\position-absolute-box3-box4.png">
+        </div>
+        <p class="explanation">See now that we have set our position: absolute; to our 'box 3', our 'box 4' now has an eligble parent to relate its position to</p>
+        <h3 class="h3"> Relative </h3>
+        <p class="explanation">Now lets try setting 'box 4' to position: resolute; </p>
+        <div class="position-img1">
+          <img class="img1" src="\blog-images\position-relative-box4.png">
+          <img class="img1" src="\blog-images\position-relative-box4-css.png">
+        </div>
+        <p class="explanation"> now we can see in these examples that 'box 4' has moved relative to its original position that you can see
+           under our static example.
+        </p>
+        <h3 class="h3"> Fixed </h3>
+        <p class="explanation">Now lets set 'box 4' to position: fixed; and see what happens </p>
+        <div class="position-img1">
+          <img class="img1" src="\blog-images\position-fixed-css.png">
+          <img class="img1" src="\blog-images\position-fixed-before-scroll.png">
+          <img class="img1" src="\blog-images\position-fixed-after-scroll.png">
+        </div>
+        <p class="explanation"> In the examples above we have set the position: fixed; to 'box 4'. our first image of our boxes is before
+           we scroll. As you can see that it is in a similar postition to when we had our 'box 4' set to 'absolute', the difference is that
+           this time the position is relative to the viewport and 'box 4' moves with the screen while we scroll as we can see in our image on the right
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
