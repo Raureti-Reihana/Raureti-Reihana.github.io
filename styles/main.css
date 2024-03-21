@@ -90,6 +90,7 @@ img {
 
 ul {
   text-align: left;
+  font-size: 25px;
 }
 
 .position-example {
@@ -137,6 +138,9 @@ h3 {
   h3 {
     font-size: 20px;
   }
+  ul {
+    font-size: 15px;
+  }
 }
 @media (min-width: 430px) and (max-width: 770px) {
   .button {
@@ -152,6 +156,9 @@ h3 {
     font-size: 25px;
   }
   .explanation {
+    font-size: 20px;
+  }
+  ul {
     font-size: 20px;
   }
 }
