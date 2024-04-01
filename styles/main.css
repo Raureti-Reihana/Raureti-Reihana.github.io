@@ -11,10 +11,12 @@
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255, 255, 255);
   margin: 0;
   width: 100%;
-  display: flex;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -44,6 +46,7 @@
   background-size: cover;
   max-width: auto;
   margin: 0;
+  scrollbar-width: none;
   height: 100vh;
 }
 
@@ -85,8 +88,11 @@ img {
   margin: 20px;
   border-radius: 10px;
   overflow: auto;
-  
+  text-decoration: none;
+
 }
+
+
 
 ul {
   text-align: left;
